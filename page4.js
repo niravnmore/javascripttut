@@ -1,3 +1,3 @@
 function showAlert() {
-    alert('Hello LearnVern. This is page 4.')
-  }
+  alert("Hello LearnVern. This is page 4.");
+}
