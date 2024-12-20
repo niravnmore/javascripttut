@@ -56,11 +56,24 @@ Javascript can be included within an HTML file in three different ways :
 - External : creating a separate js file and adding a link of the file in HTML document using `<script>` tag. 
 - Asynchronous and Deferred : using an external js file with async or deferred option to optimise or manipulate webpage structure.  
 
+## Comments in Javascript
 
+Comments are used to add information about the code, warnings or suggestions which can help to understand the code and deliver a message.  
+Javascript comments are not executed and ignored by Javascript engine.  
+Comments can also be used to exclude certain lines of code from being executed.
 
+Single line comments can be added using `//` at the start of the comment. Anything written after `//` will not be executed for that line.
 
+    //This is a single line comment
 
+Multi line comments can be added by using `/*` and `*/`. Any code written between these tags will be consided as comments and will not be executed. 
 
+    /*
+    This is a 
+    multi
+    line
+    comment
+    */
 
-
+## Variables in Javascript
 
