@@ -83,41 +83,41 @@ Multi line comments can be added by using `/*` and `*/`. Any code written betwee
 - Variables in javascript should start with (first character) alphabets (`a-z`, `A-Z`), underscore (`_`) or dollar sign (`$`).
 - Variable name may contain alphanumeric characters (`a-z`, `A-Z`, `0-9`), underscore (`_`) and dollar sign (`$`).
 - Javascript variables are case sensitive so variable `num` will be different from `Num` or `NUM`.
-- Reserve keywords as variable name are not valid. 
+- Reserve keywords as variable name are not valid.
 
-Variables can be defined by the keyword `var`. It has a global-scope behavior. e.g.,  
+Variables can be defined by the keyword `var`. It has a global-scope behavior. e.g.,
 
     var a = 10;
     var msg = 'Hello World';
 
-Keyword `var` is optional. Variables can be defined without any keyword and still have same properties as defined through `var`. e.g.,  
+Keyword `var` is optional. Variables can be defined without any keyword and still have same properties as defined through `var`. e.g.,
 
     myVar = 'This variables is defined without using any keyword';
     newNumber = 108;
 
-Variables can also be defined using `let` keyword for block-scoped characteristics.  
+Variables can also be defined using `let` keyword for block-scoped characteristics.
 
     let newvar = 24;
     let temp = 55;
 
-Javascript also provides option to define contants by using `const` keyword. Value of constants cannot be reassigned.  
+Javascript also provides option to define contants by using `const` keyword. Value of constants cannot be reassigned.
 
     const PI = 3.14;
 
 ## Variables Scope in Javascript
 
-- In Javascript variables can have global (function) scope or local scope.  
-- Any variable defined through `var` keyword or without it inherites global scope. 
+- In Javascript variables can have global (function) scope or local scope.
+- Any variable defined through `var` keyword or without it inherites global scope.
 - Any variable defined using `let` and `const` keyword will have local scope properties and will not be available anywhere outside the block.
-- Variables can also be defined and stored using `window` object and used as a global variable.  
+- Variables can also be defined and stored using `window` object and used as a global variable.
 
         window.myVar = 'Variable through window object.';
 
-- Any variable defined outside function are added internally to `window` object and can be accessed using `window` object. e.g.,  
+- Any variable defined outside function are added internally to `window` object and can be accessed using `window` object. e.g.,
 
         var myVar = "This is a global variable";
         function myFunc() {
-            document.write(window.myVar); 
+            document.write(window.myVar);
         }
         myFunc(); // prints -> This is a global variable
 
@@ -125,15 +125,133 @@ Javascript also provides option to define contants by using `const` keyword. Val
 
 Javascript provides different datatypes to store data.
 
-- Primitive Datatypes  
-    1. Strings - to store text 
-    2. Numbers - to store imtegers, float, etc
-    3. Boolean - store true or false values
-    4. null
-    5. undefined
-    6. BigInt
-    7. Symbol  
+- Primitive Datatypes
+
+  1. string - to store text.
+  2. number - to store imtegers, float, etc.
+  3. boolean - store true or false values.
+  4. null - when variable field is empty but not undefined.
+  5. undefined - is generated variable value is not assigned.
+  6. bigInt
+  7. symbol
+
 - Composite Datatypes
-    1. Object
-    2. Array
-    3. Date
+
+  1. Object - collection of data in a key value pattern.
+  2. Array - collection or list of elements.
+  3. Date - date datatype is used to manipulate date.
+
+- Array example :
+
+        var cars = ["Swift", "XUV", "Alto"];
+
+- Object example
+
+        var customer = {
+            firstname: "Rahul",
+            lastname: "Dravid",
+            profession: "cricketer"
+        };
+
+## Operators in Javascript
+
+Javascript operators are symbols that are used to perform operations on operands.
+
+<table>
+<tr>
+<th>Operators</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<th>Arithmetic Operators</th>
+</tr>
+<tr>
+<td>+</td>
+<td>Addition</td>
+<td>a + b</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Substraction</td>
+<td>a - b</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplication</td>
+<td>a * b</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Division</td>
+<td>a / b</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Modulus</td>
+<td>a % b</td>
+</tr>
+<tr>
+<td>++</td>
+<td>Increment</td>
+<td>++i , i++</td>
+</tr>
+<tr>
+<td>--</td>
+<td>decrement</td>
+<td>--i , i--</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Comparison Operators</th>
+</tr>
+<tr>
+<td>==</td>
+<td>Is equal to </td>
+<td>a == b</td>
+</tr>
+<tr>
+<td>===</td>
+<td>Is equal and of same type</td>
+<td>a === b</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Is not equal to</td>
+<td>a != b</td>
+</tr>
+<tr>
+<td>!==</td>
+<td>Is not equal and of not same type</td>
+<td>a !== b</td>
+</tr>
+<tr>
+<td>></td>
+<td>Is greater than</td>
+<td>a > b</td>
+</tr>
+<tr>
+<td>>=</td>
+<td>Is greater than or equal to</td>
+<td>a >= b</td>
+</tr>
+<tr>
+<td><</td>
+<td>Is less than</td>
+<td>a < b</td>
+</tr>
+<tr>
+<td><=</td>
+<td>Is less than or equal to</td>
+<td>a <= b</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
