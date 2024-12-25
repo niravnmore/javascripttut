@@ -254,4 +254,156 @@ Javascript operators are symbols that are used to perform operations on operands
 <td></td>
 <td></td>
 </tr>
+<tr>
+<th>Bitwise Operators</th>
+</tr>
+<tr>
+<td>&</td>
+<td>Bitwise AND</td>
+<td>a & b</td>
+</tr>
+<tr>
+<td>|</td>
+<td>Bitwise OR</td>
+<td>a | b</td>
+</tr>
+<tr>
+<td>^</td>
+<td>Bitwise XOR</td>
+<td>a ^ b</td>
+</tr>
+<tr>
+<td>~</td>
+<td>Bitwise NOT</td>
+<td>~a</td>
+</tr>
+<tr>
+<td><<</td>
+<td>Bitwise left shift</td>
+<td>a << b</td>
+</tr>
+<tr>
+<td>>></td>
+<td>Bitwise right shift</td>
+<td>a >> b</td>
+</tr>
+<tr>
+<td>>>></td>
+<td>Bitwise right shift with zero</td>
+<td>a >>> b</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Logical Operators</th>
+</tr>
+<tr>
+<td>&&</td>
+<td>Logical AND</td>
+<td>a && b</td>
+</tr>
+<tr>
+<td>||</td>
+<td>Logical OR</td>
+<td>a || b</td>
+</tr>
+<tr>
+<td>!</td>
+<td>Logical NOT</td>
+<td>!a</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Assignment Operators</th>
+</tr>
+<tr>
+<td> = </td>
+<td>Value assignment operator</td>
+<td>a = 5, b = a</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>Add and assign</td>
+<td>a += b</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>Substract and assign</td>
+<td>a -= b</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>Multiply and assign</td>
+<td>a *= b</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>Divide and assign</td>
+<td>a /= b</td>
+</tr>
+<tr>
+<td>%=</td>
+<td>Modulus and assign</td>
+<td>a %= b</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Assignment Operators</th>
+</tr>
+<tr>
+<td>?:</td>
+<td>Conditional operator</td>
+<td>a == b ? x = true : x = false</td>
+</tr>
+<tr>
+<td>,</td>
+<td>Comma operator allows evaluation of multiple expressions in single statement</td>
+<td>let a = (1,2,3); a = 3</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>delete property deletes an entry from an object</td>
+<td>delete x, delete person.lastname</td>
+</tr>
+<tr>
+<td>in</td>
+<td>in operator checks if a property exist in the object array</td>
+<td>prop in object</td>
+</tr>
+<tr>
+<td>instanceof</td>
+<td>checks if the object is an instance of given type</td>
+<td>object instanceof objectType</td>
+</tr>
+<tr>
+<td>new</td>
+<td>create a new object</td>
+<td>var a = new obj();</td>
+</tr>
+<tr>
+<td>typeof</td>
+<td>checks the type of object</td>
+<td>typeof 5 //"number" </td>
+</tr>
+<tr>
+<td>void</td>
+<td>it discards expressions return value</td>
+<td>void function(x)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
